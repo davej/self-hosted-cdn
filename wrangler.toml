@@ -1,7 +1,7 @@
 # common
 main = "src/index.ts"
 compatibility_date = "2022-09-05"
-name = "self-hosted-cdn"
+name = "desktop-app-assets"
 
 
 [[r2_buckets]]
