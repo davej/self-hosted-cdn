@@ -14,9 +14,9 @@
   ],
   "scripts": {
     "build": "tsc",
-    "deploy:prod": "npx wrangler deploy --env prod",
+    "deploy:prod": "npx wrangler deploy",
     "deploy:dev": "echo 'No dev deployment yet'",
-    "start:prod": "npx wrangler dev --env prod --remote",
+    "start:prod": "npx wrangler dev --remote",
     "test": "npx jest"
   },
   "devDependencies": {
