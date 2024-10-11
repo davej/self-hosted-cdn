@@ -14,3 +14,5 @@
   https://download-dev.todesktop.cloud
 - `npm run deploy:prod` - deploy a prod worker
 - `npm test` - run tests.
+
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ToDesktop/self-hosted-cdn)
