@@ -1,0 +1,19 @@
+# common
+main = "src/index.ts"
+compatibility_date = "2022-09-05"
+
+# prod
+[env.prod]
+name = "self-hosted-cdn"
+
+# [[env.prod.routes]]
+# pattern = "your-domain-here"
+# custom_domain = true
+
+[[env.prod.r2_buckets]]
+binding = "R2_BUCKET"
+bucket_name = "desktop-app-assets"
+preview_bucket_name = "desktop-app-assets"
+
+
+# TODO: add dev env
