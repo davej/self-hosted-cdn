@@ -9,8 +9,4 @@ binding = "R2_BUCKET"
 bucket_name = "desktop-app-assets"
 preview_bucket_name = "desktop-app-assets"
 
-# [[routes]]
-# pattern = "your-domain-here"
-# custom_domain = true
-
 # TODO: add dev env

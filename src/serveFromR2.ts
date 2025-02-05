@@ -1,4 +1,4 @@
-import parseRange from "range-parser";
+import * as parseRange from "range-parser";
 import makeDownloadFileName from "./makeDownloadFileName";
 import { objectNotFound } from "./objectNotFound";
 import type { Env, ParsedRange } from "./types";

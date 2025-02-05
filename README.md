@@ -4,7 +4,7 @@
 
 1. Create R2 bucket named `desktop-app-assets` in Cloudflare dashboard. [Here is a guide](CREATING_R2_BUCKET.md).
 2. Click the deploy button below and follow the instructions.
-3. [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ToDesktop/self-hosted-cdn)
+3. [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/davej/self-hosted-cdn)
 4. The worker should be live at `https://desktop-app-assets.<your_company>.workers.dev/`
 5. You may want to add a custom domain for the worker. [Here is a guide](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/).
 
@@ -29,5 +29,17 @@
 ## Coming next
 
 - Add dev environment
-- Add logging
-- Add support for caching and invalidation
+- Logging
+- Support for caching and invalidation
+- Support for dynamic routing
+  - `/versions/:appVersion/:platform/:artifactName/:arch`
+  - `/versions/:appVersion/:platform/:artifactName`
+  - `/versions/:appVersion/:platform`
+  - `/versions/:appVersion`
+  - `/builds/:buildId/:platform/:artifactName/:arch`
+  - `/builds/:buildId/:platform/:artifactName`
+  - `/builds/:buildId/:platform`
+  - `/builds/:buildId`
+  - `/:platform/:artifactName/:arch`
+  - `/:platform/:artifactName`
+  - `/:platform`
